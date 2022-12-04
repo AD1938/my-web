@@ -9,6 +9,8 @@ import {BsInstagram} from 'react-icons/bs'
 import {WiMoonAltWaxingCrescent3} from "react-icons/wi"
 import { useState } from "react";
 import hehua from "../public/hehua.png"
+import me from "../public/me.png"
+
 
 
 
@@ -71,7 +73,7 @@ export default function Home() {
         
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={hehua} layout="fill" objectFit="cover" />
+              <Image src={me} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
