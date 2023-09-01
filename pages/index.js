@@ -23,10 +23,10 @@ export default function Home() {
             <h2 className="text-6xl text-gray-800 dark:text-gray-100 font-extrabold">
               Ando Deng
             </h2>
-            <div className="space-y-4">
+            <div className="flex flex-col space-y-4">
               <div className="inline-block px-6 py-3 bg-gray-200 dark:bg-gray-800 rounded-full">
                 <h3 className="text-2xl text-gray-700 dark:text-gray-300">
-                  Education: Pure Mathematics / Combinatorics and Optimization@
+                  Education: Pure Mathematics / Combinatorics and Optimization @
                   UWaterloo
                 </h3>
               </div>
